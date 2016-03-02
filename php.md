@@ -1,5 +1,14 @@
 PHP Basics
 -----
+#### Build-in web server
+> php -S localhost:8000 file_name.php
+
+#### Get the corrent php version 
+```php
+<?php
+phpinfo();
+```
+
 #### [When should I use require vs. include?](http://stackoverflow.com/questions/2418473/when-should-i-use-require-once-vs-include)    
 The require() function is identical to include(), except that it handles errors differently. If an error occurs, the include() function generates a warning, but the script will continue execution. The require() generates a fatal error, and the script will stop.
 
